@@ -1,0 +1,19 @@
+<style>
+        /* Estilos CSS para aplicar colores a los títulos y párrafos */
+        h1 {
+            color: #ff5733; /* Color para h1 */
+        }
+
+        h2 {
+            color: #33c1ff; /* Color para h2 */
+        }
+
+        h3 {
+            color: #33ff57; /* Color para h3 */
+        }
+
+        p {
+            color: #333333; /* Color para los párrafos */
+            font-family: Arial, sans-serif; /* Fuente para los párrafos */
+        }
+    </style>
