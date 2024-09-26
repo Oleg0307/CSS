@@ -1,4 +1,4 @@
-/* Estilos para los títulos */
+¨body{
 h1 {
   color: darkred;
   font-family: 'Georgia', serif;
@@ -23,4 +23,5 @@ p {
   font-family: 'Tahoma', sans-serif;
   font-size: 18px;
   line-height: 1.6;
+}
 }
