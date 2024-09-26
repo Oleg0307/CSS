@@ -1,4 +1,4 @@
-body {
+nbody {
   background-color: #e0e0e0;
   font-family: 'Arial', sans-serif;
 }
@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 .external {
-  color: verde;
+  color: green;
   font-size: 18px;
   border: 1px solid #ccc;
   padding: 10px;
