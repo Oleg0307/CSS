@@ -1,26 +1,26 @@
 h1 {
   color: darkred;
-  font-family: 'Georgia', serif;
-  font-size: 36px;
+  font-family: 'Times', serif;
+  font-size: 54px;
 }
 
 h2 {
   color: 49a133;
-  font-family: 'Arial', sans-serif;
-  font-size: 28px;
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
 }
 
 h3 {
   color: green;
-  font-family: 'Verdana', sans-serif;
-  font-size: 24px;
+  font-family: 'Ginebra', sans-serif;
+  font-size: 36px;
 }
 
 /* Estilos para los párrafos */
 p {
   color:b32089;
-  font-family: 'Tahoma', sans-serif;
-  font-size: 18px;
+  font-family: 'MOnaco', sans-serif;
+  font-size: 36px;
   line-height: 1.6;
 }
 
