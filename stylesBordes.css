@@ -19,7 +19,7 @@ body {
 
 .border-box {
     border: 20px solid blue;   /* Синяя рамка */
-    padding: 20px;             /* Белое пространство вокруг контента */
+    padding: 26px;             /* Белое пространство вокруг контента */
 }
 
 .padding-box {
