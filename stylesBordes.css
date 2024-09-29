@@ -14,7 +14,7 @@ body {
 .outer-box {
     background-color: gray;    /* Наружная серая рамка */
     padding: 26px;             /* Внутренний отступ, соответствующий белому пространству на изображении */
-    border-radius: 10;          /* Углы остаются прямыми */
+    border-radius: 15;          /* Углы остаются прямыми */
 }
 
 .border-box {
@@ -24,7 +24,7 @@ body {
 
 .padding-box {
     background-color: white;   /* Белая область */
-    padding: 22px;             /* Отступ вокруг оранжевого контента */
+    padding: 10px;             /* Отступ вокруг оранжевого контента */
 }
 
 .content-box {
