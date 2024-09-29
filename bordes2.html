@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            box-sizing: border-box; /* Установить box-sizing для всех элементов */
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white; /* Белый фон для всей страницы */
+        }
+
+        .outer-box {
+            background-color: gray;    /* Серая рамка */
+            padding: 20px;             /* Отступ для белой области */
+            border-radius: 10px;       /* Скругленные углы */
+        }
+
+        .border-box {
+            background-color: white;   /* Белый фон для внутреннего контейнера */
+            padding: 20px;             /* Отступ для синей рамки */
+        }
+
+        .padding-box {
+            border: 20px solid blue;   /* Синяя рамка */
+            padding: 20px;             /* Отступ для оранжевого контента */
+        }
+
+        .content-box {
+            background-color: orange;  /* Оранжевое содержимое */
+            width: 200px;              /* Ширина оранжевого содержимого */
+            height: 100px;             /* Высота оранжевого содержимого */
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="border-box">
+            <div class="padding-box">
+                <div class="content-box"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
