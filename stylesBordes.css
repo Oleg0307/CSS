@@ -24,7 +24,7 @@ body {
 
 .padding-box {
     background-color: white;   /* Белая область */
-    padding: 20px;             /* Отступ вокруг оранжевого контента */
+    padding: 22px;             /* Отступ вокруг оранжевого контента */
 }
 
 .content-box {
