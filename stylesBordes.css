@@ -8,27 +8,27 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Серый фон для всей страницы */
 }
 
 .outer-box {
-    margin: 20px;
-    background-color: gray;
-    padding: 10px;
+    background-color: gray;    /* Наружная серая рамка */
+    padding: 20px;             /* Внутренний отступ, соответствующий белому пространству на изображении */
+    border-radius: 0;          /* Углы остаются прямыми */
 }
 
 .border-box {
-    border: 20px solid blue;
-    padding: 20px;
+    border: 20px solid blue;   /* Синяя рамка */
+    padding: 20px;             /* Белое пространство вокруг контента */
 }
 
 .padding-box {
-    background-color: white;
-    padding: 20px;
+    background-color: white;   /* Белая область */
+    padding: 20px;             /* Отступ вокруг оранжевого контента */
 }
 
 .content-box {
-    background-color: orange;
+    background-color: orange;  /* Оранжевое содержимое */
     width: 200px;
     height: 100px;
 }
