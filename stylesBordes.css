@@ -8,18 +8,18 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff; /* Белый фон для всей страницы */
+    background-color: white; /* Белый фон для всей страницы */
 }
 
 .outer-box {
     background-color: gray;    /* Наружная серая рамка */
-    padding: 26px;             /* Внутренний отступ, соответствующий белому пространству на изображении */
+    padding:56px;             /* Внутренний отступ, соответствующий белому пространству на изображении */
     border-radius: 15;          /* Углы остаются прямыми */
 }
 
 .border-box {
     border: 20px solid blue;   /* Синяя рамка */
-    padding: 26px;             /* Белое пространство вокруг контента */
+    padding: 8px;             /* Белое пространство вокруг контента */
 }
 
 .padding-box {
