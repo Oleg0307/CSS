@@ -13,8 +13,8 @@
 
         .outer-box {
             background-color: gray;    /* Серая рамка */
-            padding:36px;             /* Отступ для белой области */
-            border-radius: 20px;       /* Скругленные углы */
+            padding:10px;             /* Отступ для белой области */
+            border-radius: 5px;       /* Скругленные углы */
         }
 
         .border-box {
