@@ -9,6 +9,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
     <title>Mi Página de Ejemplo</title> 
+/* Estilos para el título usando el id */ 
+
+#titulo { 
+
+    color: darkblue; 
+
+    font-size: 36px; 
+
+} 
+/* Estilo específico para el botón con el id */ 
+
+#botonEnviar { 
+
+    font-size: 16px; 
+
+    border-radius: 5px; 
+
+} 
 
     <link rel="stylesheet" href="styles.css"> 
 
