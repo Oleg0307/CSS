@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white; /* Белый фон для всей страницы */
+}
+
+.outer-box {
+    background-color: gray;    /* Наружная серая рамка */
+    padding:56px;             /* Внутренний отступ, соответствующий белому пространству на изображении */
+    border-radius: 15;          /* Углы остаются прямыми */
+}
+
+.border-box {
+    border: 20px solid blue;   /* Синяя рамка */
+    padding: 8px;             /* Белое пространство вокруг контента */
+}
+
+.padding-box {
+    background-color: white;   /* Белая область */
+    padding: 10px;             /* Отступ вокруг оранжевого контента */
+}
+
+.content-box {
+    background-color: orange;  /* Оранжевое содержимое */
+    width: 200px;
+    height: 100px;
+}
