@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo HTML</title>
+    <style>
+        .titulo {
+            color: blue;
+            font-size: 24px;
+        }
+        .contenido {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        #especial {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="titulo">Este es un título con clase 'titulo'</h1>
+
+    <p id="destacado">Este es el primer párrafo con id 'destacado'.</p>
+    <p id="destacado">Este es el segundo párrafo con id 'destacado'. (Esto es incorrecto)</p>
+
+    <p class="contenido">Este es el primer párrafo con clase 'contenido'.</p>
+    <p class="contenido">Este es el segundo párrafo con clase 'contenido'.</p>
+    <p class="contenido">Este es el tercer párrafo con clase 'contenido'.</p>
+
+    <p id="especial" class="contenido">Este párrafo tiene tanto la clase 'contenido' como el id 'especial'.</p>
+
+</body>
+</html>
