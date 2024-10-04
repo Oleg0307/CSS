@@ -6,7 +6,7 @@
 /* Estilo general para el título utilizando la clase 'titulo' */
 .titulo {
     font-size: 36px;
-    color: blu;
+    color: darkgreen;
 }
 
 /* Estilo para el párrafo con el id 'destacado' */
