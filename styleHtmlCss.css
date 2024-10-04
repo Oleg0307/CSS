@@ -1,7 +1,12 @@
+#especial {
+            font-weight: bold;
+            color: red;
+        }
+
 /* Estilo general para el título utilizando la clase 'titulo' */
 .titulo {
     font-size: 36px;
-    color: navy;
+    color: blu;
 }
 
 /* Estilo para el párrafo con el id 'destacado' */
@@ -17,6 +22,8 @@
     color: darkslategray;
     margin: 10px 0;
     line-height: 1.5;
+font-family: Arial, sans-serif;
+     font-size: 18px;
 }
 
 /* Sobrescribir el estilo para el párrafo con la clase 'contenido' y el id 'especial' */
